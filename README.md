@@ -5,7 +5,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=aadityagi84&label=Profile%20views&color=0e75b6&style=flat" alt="aadityagi84" /> </p>
 
-- 🌱 I have fine knowledege of **Html, CSS, Bootstrap, jQuery, JavaScript ,React ,C ,C++**
+- 🌱 I have best knowledge of frontend development and fine knowledge of backend like Mern and persuing in JAVA
 
 - 👨‍💻 All of my projects are available at [https://github.com/aadityagi84](https://github.com/aadityagi84)
 
