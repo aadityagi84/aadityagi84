@@ -1,4 +1,4 @@
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2500&pause=1200&color=58A6FF&vCenter=true&width=760&height=45&lines=%24+whoami;Aaditya+Tyagi+%E2%80%94+Full+Stack+Developer;MERN+%C2%B7+Next.js+%C2%B7+TypeScript+%C2%B7+LLMs" alt="Aaditya Tyagi — Full Stack Developer" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2500&pause=1200&color=58A6FF&vCenter=true&width=760&height=45&lines=%24+whoami;Aaditya+Tyagi+%E2%80%94+Full+Stack+Developer;MERN+%C2%B7+Next.js+%C2%B7+React+Native+%C2%B7+LLMs" alt="Aaditya Tyagi — Full Stack Developer" />
 
 <p>
   <a href="https://linkedin.com/in/aaditya-tyagi"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=flat-square&logo=linkedin&logoColor=58A6FF" alt="LinkedIn" /></a>
@@ -14,6 +14,7 @@ const aaditya: Developer = {
   company: "Wishgeeks Techserve",
   stack: {
     frontend: ["React", "Next.js", "TypeScript", "Redux Toolkit", "Tailwind"],
+    mobile: ["React Native"],
     backend: ["Node.js", "Express", "GraphQL", "Socket.IO", "WebRTC"],
     data: ["MongoDB", "PostgreSQL", "MySQL", "Redis", "BullMQ"],
     ai: ["OpenAI API", "Anthropic Claude", "Prompt Engineering", "OCR"],
@@ -42,6 +43,7 @@ const aaditya: Developer = {
 </p>
 
 <p>
+  <img src="https://img.shields.io/badge/React%20Native-0D1117?style=flat-square&logo=react&logoColor=61DAFB" alt="React Native" />
   <img src="https://img.shields.io/badge/OpenAI%20API-0D1117?style=flat-square" alt="OpenAI API" />
   <img src="https://img.shields.io/badge/Anthropic%20Claude-0D1117?style=flat-square" alt="Anthropic Claude" />
   <img src="https://img.shields.io/badge/Socket.IO-0D1117?style=flat-square" alt="Socket.IO" />
@@ -53,28 +55,6 @@ const aaditya: Developer = {
   <img src="https://img.shields.io/badge/PM2-0D1117?style=flat-square" alt="PM2" />
   <img src="https://img.shields.io/badge/CI%2FCD-0D1117?style=flat-square" alt="CI/CD" />
 </p>
-
-## Experience
-
-```bash
-$ git log --career --oneline
-
-2025-08 → now      Full-Stack Developer @ Wishgeeks Techserve, Noida
-  feat   AI chatbots and conversational workflows on OpenAI + Claude
-  feat   OCR document verification pipeline with automated validation
-  feat   B2B platforms: role-based dashboards, user management, integrations
-  perf   35% faster page loads (code splitting, lazy loading, SSR, caching)
-  ops    AWS EC2 + S3 + CloudFront, Nginx, PM2, CI/CD pipelines
-  sec    JWT, HTTP-only cookies, RBAC across admin and B2B modules
-  fix    40% better reliability via testing, refactoring, DB optimization
-
-2023-11 → 2025-08  Full-Stack Developer @ Nuovasoft, Noida
-  feat   Fleet Management platform: vehicles, drivers, assignments
-  feat   Event Management platform: events, registrations, schedules
-  perf   25% faster API responses (Express + MongoDB query optimization)
-  fix    40% fewer production bugs (unit tests, API standards, docs)
-  chore  intern → full-time
-```
 
 ## GitHub
 
