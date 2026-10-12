@@ -12,21 +12,9 @@
 <img src="./assets/cta.svg" width="100%" alt="Let's build something great. Full-stack roles, AI integrations and products worth shipping." />
 
 <p>
-  <a href="https://linkedin.com/in/aaditya-tyagi"><img src="./assets/linkedin.svg" width="49.4%" alt="LinkedIn: in/aaditya-tyagi" /></a>
-  <a href="mailto:tyagiadityagi@gmail.com"><img src="./assets/email.svg" width="49.4%" align="right" alt="Email: tyagiadityagi@gmail.com" /></a>
+  <a href="https://linkedin.com/in/aaditya-tyagi"><img src="./assets/linkedin.svg" width="32.9%" alt="LinkedIn: in/aaditya-tyagi" /></a>
+  <a href="mailto:tyagiadityagi@gmail.com"><img src="./assets/email.svg" width="32.9%" alt="Email: tyagiadityagi@gmail.com" /></a>
+  <a href="https://github.com/aadityagi84?tab=repositories"><img src="./assets/github.svg" width="32.9%" alt="GitHub: @aadityagi84" /></a>
 </p>
 
-<details>
-<summary><sub>Certifications and education</sub></summary>
-<br />
-
-| Certification | Issued by |
-| :-- | :-- |
-| Frontend Developer (React) | HackerRank |
-| Introduction to Node.js (LFW111) | The Linux Foundation |
-| React.js & Node.js | The Digital Adda |
-| MERN Stack Development | DUCAT IT Training |
-
-BCA · Chaudhary Charan Singh University, Meerut · 2022–2025
-
-</details>
+<img src="./assets/credentials.svg" width="100%" alt="Credentials: Frontend Developer (React), HackerRank. Introduction to Node.js (LFW111), The Linux Foundation. React.js and Node.js, The Digital Adda. MERN Stack Development, DUCAT IT Training. Education: BCA, Chaudhary Charan Singh University, Meerut, 2022 to 2025." />
