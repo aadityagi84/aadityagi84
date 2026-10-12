@@ -1,5 +1,5 @@
 <!-- J.A.R.V.I.S. boot animation: keep jarvis-boot.svg in the same repo, next to this README -->
-<p align="center">
+
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="900" height="300" role="img" aria-label="J.A.R.V.I.S. boot sequence — Aaditya Tyagi, Full Stack Developer">
   <defs>
     <radialGradient id="glow" cx="50%" cy="50%" r="50%">
@@ -50,7 +50,7 @@
     </circle>
   </g>
 
-  <!-- ============ PHASE 1: boot log (fades out at 5s) ============ -->
+
   <g font-family="'JetBrains Mono','Fira Code',Consolas,Menlo,monospace" font-size="14" fill="#8B949E">
     <animate attributeName="opacity" from="1" to="0" begin="5s" dur="0.4s" fill="freeze"/>
 
@@ -91,7 +91,7 @@
     </text>
   </g>
 
-  <!-- ============ PHASE 2: welcome screen (fades in at 5.4s, stays) ============ -->
+
   <g font-family="'JetBrains Mono','Fira Code',Consolas,Menlo,monospace" opacity="0">
     <animate attributeName="opacity" from="0" to="1" begin="5.4s" dur="0.8s" fill="freeze"/>
 
