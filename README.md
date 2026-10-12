@@ -1,6 +1,112 @@
 <!-- J.A.R.V.I.S. boot animation: keep jarvis-boot.svg in the same repo, next to this README -->
 <p align="center">
-  <img src="./jarvis-boot.svg" alt="J.A.R.V.I.S. boot sequence — Aaditya Tyagi, Full Stack Developer" width="100%" />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="900" height="300" role="img" aria-label="J.A.R.V.I.S. boot sequence — Aaditya Tyagi, Full Stack Developer">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00D8FF" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#00D8FF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0EA5E9"/>
+      <stop offset="100%" stop-color="#00D8FF"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#00D8FF" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- background -->
+  <rect width="900" height="300" rx="14" fill="#0D1117"/>
+  <rect width="900" height="300" rx="14" fill="url(#grid)"/>
+  <rect x="1" y="1" width="898" height="298" rx="13" fill="none" stroke="#00D8FF" stroke-opacity="0.25"/>
+
+  <!-- corner brackets -->
+  <g fill="none" stroke="#00D8FF" stroke-width="2" stroke-opacity="0.7">
+    <path d="M18 40V18H40"/>
+    <path d="M860 18H882V40"/>
+    <path d="M882 260V282H860"/>
+    <path d="M40 282H18V260"/>
+  </g>
+
+  <!-- arc reactor -->
+  <g transform="translate(150 150)">
+    <circle r="95" fill="url(#glow)">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="84" fill="none" stroke="#00D8FF" stroke-opacity="0.25" stroke-width="1"/>
+    <circle r="76" fill="none" stroke="#00D8FF" stroke-width="3" stroke-dasharray="90 30 20 30" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="60" fill="none" stroke="#38BDF8" stroke-width="6" stroke-dasharray="6 10" stroke-opacity="0.8">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="12s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="44" fill="none" stroke="#00D8FF" stroke-width="2" stroke-dasharray="60 20" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="28" fill="#0D1117" stroke="#00D8FF" stroke-width="2"/>
+    <circle r="12" fill="#00D8FF">
+      <animate attributeName="r" values="10;14;10" dur="1.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- ============ PHASE 1: boot log (fades out at 5s) ============ -->
+  <g font-family="'JetBrains Mono','Fira Code',Consolas,Menlo,monospace" font-size="14" fill="#8B949E">
+    <animate attributeName="opacity" from="1" to="0" begin="5s" dur="0.4s" fill="freeze"/>
+
+    <text x="290" y="62" fill="#00D8FF" font-size="16" font-weight="700" letter-spacing="3" opacity="0">
+      J.A.R.V.I.S. // BOOT SEQUENCE
+      <animate attributeName="opacity" from="0" to="1" begin="0.3s" dur="0.3s" fill="freeze"/>
+    </text>
+
+    <text x="290" y="98" opacity="0">
+      &gt; loading ui modules: react · next.js · react native <tspan fill="#3FB950">[OK]</tspan>
+      <animate attributeName="opacity" from="0" to="1" begin="1s" dur="0.2s" fill="freeze"/>
+    </text>
+    <text x="290" y="124" opacity="0">
+      &gt; starting services: node.js · express · graphql <tspan fill="#3FB950">[OK]</tspan>
+      <animate attributeName="opacity" from="0" to="1" begin="1.8s" dur="0.2s" fill="freeze"/>
+    </text>
+    <text x="290" y="150" opacity="0">
+      &gt; connecting data: mongodb · postgresql · redis <tspan fill="#3FB950">[OK]</tspan>
+      <animate attributeName="opacity" from="0" to="1" begin="2.6s" dur="0.2s" fill="freeze"/>
+    </text>
+    <text x="290" y="176" opacity="0">
+      &gt; waking ai core: openai · claude <tspan fill="#00D8FF">[ONLINE]</tspan>
+      <animate attributeName="opacity" from="0" to="1" begin="3.4s" dur="0.2s" fill="freeze"/>
+    </text>
+    <text x="290" y="202" opacity="0">
+      &gt; deploy target: aws ec2 · s3 · cloudfront <tspan fill="#3FB950">[READY]</tspan>
+      <animate attributeName="opacity" from="0" to="1" begin="4.1s" dur="0.2s" fill="freeze"/>
+    </text>
+
+    <!-- progress bar -->
+    <rect x="290" y="232" width="560" height="8" rx="4" fill="#161B22" stroke="#30363D"/>
+    <rect x="290" y="232" width="0" height="8" rx="4" fill="url(#bar)">
+      <animate attributeName="width" from="0" to="560" begin="0.5s" dur="4.2s" fill="freeze"/>
+    </rect>
+    <text x="290" y="262" font-size="12" fill="#58A6FF">
+      INITIALIZING SYSTEMS
+      <animate attributeName="opacity" values="1;0.3;1" dur="1s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- ============ PHASE 2: welcome screen (fades in at 5.4s, stays) ============ -->
+  <g font-family="'JetBrains Mono','Fira Code',Consolas,Menlo,monospace" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="5.4s" dur="0.8s" fill="freeze"/>
+
+    <text x="290" y="88" font-size="13" fill="#3FB950" letter-spacing="3">● SYSTEM ONLINE
+      <animate attributeName="opacity" values="1;0.4;1" dur="1.8s" repeatCount="indefinite"/>
+    </text>
+    <text x="290" y="112" font-size="14" fill="#8B949E">Welcome back, sir. Loading profile of</text>
+    <text x="288" y="166" font-size="46" font-weight="800" fill="#FFFFFF" letter-spacing="2">AADITYA TYAGI</text>
+    <rect x="290" y="184" width="0" height="3" rx="1.5" fill="url(#bar)">
+      <animate attributeName="width" from="0" to="430" begin="5.8s" dur="0.9s" fill="freeze"/>
+    </rect>
+    <text x="290" y="216" font-size="17" fill="#00D8FF" letter-spacing="2">FULL STACK DEVELOPER</text>
+    <text x="290" y="244" font-size="13" fill="#8B949E">MERN · Next.js · TypeScript · React Native · AI / LLMs</text>
+  </g>
+</svg>
 </p>
 
 <h1 align="center">Hi 👋, I'm Aaditya Tyagi</h1>
