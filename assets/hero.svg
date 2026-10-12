@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 460" width="1200" height="460" role="img" aria-label="Aaditya Tyagi — Full Stack Developer. I build fast, scalable products for web and mobile, and ship LLM-powered features into production."><style>
+.s{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif} .m{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace}
+.rise{opacity:0;animation:rise .9s cubic-bezier(.2,.7,.2,1) forwards}
+@keyframes rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+.grow{transform-box:fill-box;transform-origin:left center;transform:scaleX(0);animation:grow 1.4s cubic-bezier(.2,.7,.2,1) forwards}
+@keyframes grow{to{transform:scaleX(1)}}
+.pulse{animation:pulse 2s ease-in-out infinite}
+@keyframes pulse{50%{opacity:.25}}
+</style>
+<defs>
+  <clipPath id="c"><rect width="1200" height="460" rx="28"/></clipPath>
+  <filter id="b" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="90"/></filter>
+  <linearGradient id="n" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#9A9AA5"/></linearGradient>
+  <pattern id="d" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.2" fill="#FFFFFF" fill-opacity=".09"/></pattern>
+  <radialGradient id="dm" cx="78%" cy="40%" r="55%"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+  <mask id="dmk"><rect width="1200" height="460" fill="url(#dm)"/></mask>
+  <linearGradient id="f" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".1" stop-color="#fff"/><stop offset=".9" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  <mask id="fm"><rect width="1200" height="460" fill="url(#f)"/></mask>
+</defs>
+<g clip-path="url(#c)">
+  <rect width="1200" height="460" fill="#09090B"/>
+  <g filter="url(#b)">
+    <circle cx="980" cy="120" r="210" fill="#4338CA" fill-opacity=".75"><animate attributeName="cx" values="980;880;1040;980" dur="22s" repeatCount="indefinite"/><animate attributeName="cy" values="120;210;90;120" dur="22s" repeatCount="indefinite"/></circle>
+    <circle cx="1120" cy="330" r="170" fill="#0D9488" fill-opacity=".6"><animate attributeName="cx" values="1120;1000;1150;1120" dur="27s" repeatCount="indefinite"/><animate attributeName="cy" values="330;260;380;330" dur="27s" repeatCount="indefinite"/></circle>
+    <circle cx="760" cy="40" r="110" fill="#C6FF3D" fill-opacity=".22"><animate attributeName="cx" values="760;860;700;760" dur="19s" repeatCount="indefinite"/></circle>
+  </g>
+  <rect width="1200" height="460" fill="url(#d)" mask="url(#dmk)"/>
+  <g class="m" font-size="14" fill="#A1A1AA" letter-spacing="1.5">
+    <text x="64" y="62">~/aadityagi84</text>
+    <text x="1136" y="62" text-anchor="end">NOIDA, INDIA</text>
+  </g>
+  <g class="rise" style="animation-delay:.1s">
+    <rect x="64" y="108" width="438" height="36" rx="18" fill="#FFFFFF" fill-opacity=".05" stroke="#FFFFFF" stroke-opacity=".14"/>
+    <circle class="pulse" cx="86" cy="126" r="4.5" fill="#C6FF3D"/>
+    <text class="m" x="102" y="131" font-size="14" fill="#E4E4E7" letter-spacing="1.2">FULL STACK DEVELOPER · 3+ YEARS IN PROD</text>
+  </g>
+  <text class="s rise" style="animation-delay:.25s" x="58" y="266" font-size="128" font-weight="800" letter-spacing="-5" fill="url(#n)">Aaditya Tyagi<tspan fill="#C6FF3D">.</tspan></text>
+  <g class="s rise" style="animation-delay:.45s" font-size="25" fill="#A1A1AA">
+    <text x="64" y="322">I build fast, scalable products for web and mobile,</text>
+    <text x="64" y="356">and ship <tspan fill="#FAFAFA">LLM-powered features</tspan> into production.</text>
+  </g>
+  <line x1="0" y1="400" x2="1200" y2="400" stroke="#FFFFFF" stroke-opacity=".08"/>
+  <g mask="url(#fm)"><g class="m" font-size="16" fill="#D4D4D8">
+    <g><text x="0" y="437">React</text><circle cx="74" cy="432" r="2.5" fill="#C6FF3D"/><text x="100" y="437">Next.js</text><circle cx="193" cy="432" r="2.5" fill="#C6FF3D"/><text x="219" y="437">TypeScript</text><circle cx="341" cy="432" r="2.5" fill="#C6FF3D"/><text x="367" y="437">React Native</text><circle cx="508" cy="432" r="2.5" fill="#C6FF3D"/><text x="534" y="437">Node.js</text><circle cx="628" cy="432" r="2.5" fill="#C6FF3D"/><text x="654" y="437">Express</text><circle cx="747" cy="432" r="2.5" fill="#C6FF3D"/><text x="773" y="437">GraphQL</text><circle cx="866" cy="432" r="2.5" fill="#C6FF3D"/><text x="892" y="437">MongoDB</text><circle cx="985" cy="432" r="2.5" fill="#C6FF3D"/><text x="1011" y="437">PostgreSQL</text><circle cx="1133" cy="432" r="2.5" fill="#C6FF3D"/><text x="1159" y="437">Redis</text><circle cx="1233" cy="432" r="2.5" fill="#C6FF3D"/><text x="1259" y="437">OpenAI</text><circle cx="1343" cy="432" r="2.5" fill="#C6FF3D"/><text x="1369" y="437">Claude</text><circle cx="1452" cy="432" r="2.5" fill="#C6FF3D"/><text x="1478" y="437">AWS</text><circle cx="1533" cy="432" r="2.5" fill="#C6FF3D"/><text x="1559" y="437">Socket.IO</text><circle cx="1672" cy="432" r="2.5" fill="#C6FF3D"/><text x="1698" y="437">WebRTC</text><circle cx="1781" cy="432" r="2.5" fill="#C6FF3D"/><text x="1807" y="437">BullMQ</text><circle cx="1891" cy="432" r="2.5" fill="#C6FF3D"/></g><g transform="translate(1917 0)"><text x="0" y="437">React</text><circle cx="74" cy="432" r="2.5" fill="#C6FF3D"/><text x="100" y="437">Next.js</text><circle cx="193" cy="432" r="2.5" fill="#C6FF3D"/><text x="219" y="437">TypeScript</text><circle cx="341" cy="432" r="2.5" fill="#C6FF3D"/><text x="367" y="437">React Native</text><circle cx="508" cy="432" r="2.5" fill="#C6FF3D"/><text x="534" y="437">Node.js</text><circle cx="628" cy="432" r="2.5" fill="#C6FF3D"/><text x="654" y="437">Express</text><circle cx="747" cy="432" r="2.5" fill="#C6FF3D"/><text x="773" y="437">GraphQL</text><circle cx="866" cy="432" r="2.5" fill="#C6FF3D"/><text x="892" y="437">MongoDB</text><circle cx="985" cy="432" r="2.5" fill="#C6FF3D"/><text x="1011" y="437">PostgreSQL</text><circle cx="1133" cy="432" r="2.5" fill="#C6FF3D"/><text x="1159" y="437">Redis</text><circle cx="1233" cy="432" r="2.5" fill="#C6FF3D"/><text x="1259" y="437">OpenAI</text><circle cx="1343" cy="432" r="2.5" fill="#C6FF3D"/><text x="1369" y="437">Claude</text><circle cx="1452" cy="432" r="2.5" fill="#C6FF3D"/><text x="1478" y="437">AWS</text><circle cx="1533" cy="432" r="2.5" fill="#C6FF3D"/><text x="1559" y="437">Socket.IO</text><circle cx="1672" cy="432" r="2.5" fill="#C6FF3D"/><text x="1698" y="437">WebRTC</text><circle cx="1781" cy="432" r="2.5" fill="#C6FF3D"/><text x="1807" y="437">BullMQ</text><circle cx="1891" cy="432" r="2.5" fill="#C6FF3D"/></g>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="-1917 0" dur="38s" repeatCount="indefinite"/>
+  </g></g>
+  <rect x=".5" y=".5" width="1199" height="459" rx="27.5" fill="none" stroke="#FFFFFF" stroke-opacity=".1"/>
+</g></svg>
