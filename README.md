@@ -6,7 +6,7 @@
 
 <p>
   <img src="https://github-readme-stats.vercel.app/api?username=aadityagi84&show_icons=true&include_all_commits=true&hide_title=true&bg_color=0F0F12&text_color=A1A1AA&icon_color=C6FF3D&ring_color=C6FF3D&border_color=26262B&border_radius=16" width="49.4%" alt="GitHub stats" />
-  <img src="https://streak-stats.demolab.com?user=aadityagi84&background=0F0F12&border=26262B&border_radius=16&ring=C6FF3D&fire=C6FF3D&currStreakLabel=C6FF3D&currStreakNum=FAFAFA&sideNums=FAFAFA&sideLabels=A1A1AA&dates=63636B&stroke=26262B" width="49.4%" align="right" alt="GitHub streak" />
+  <!-- <img src="https://streak-stats.demolab.com?user=aadityagi84&background=0F0F12&border=26262B&border_radius=16&ring=C6FF3D&fire=C6FF3D&currStreakLabel=C6FF3D&currStreakNum=FAFAFA&sideNums=FAFAFA&sideLabels=A1A1AA&dates=63636B&stroke=26262B" width="49.4%" align="right" alt="GitHub streak" /> -->
 </p>
 
 <img src="./assets/cta.svg" width="100%" alt="Let's build something great. Full-stack roles, AI integrations and products worth shipping." />
